@@ -1,0 +1,2 @@
+defmodule ExWareki do
+end
