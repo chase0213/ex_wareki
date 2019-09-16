@@ -1,6 +1,6 @@
 # ExWareki
 
-**TODO: Add description**
+Japanese era-converter for elixir
 
 ## Installation
 
@@ -10,7 +10,7 @@ by adding `ex_wareki` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ex_wareki, "~> 0.1.0"}
+    {:ex_wareki, "~> 1.0.0"}
   ]
 end
 ```
