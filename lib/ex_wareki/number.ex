@@ -1,4 +1,8 @@
 defmodule ExWareki.Number do
+  @moduledoc """
+  Number module provides handlers of Japanese-formatted-number (kansuji) string.
+  """
+
   @doc """
   parse/1 converts kansuji(kanji-number) into arabic numbers
 

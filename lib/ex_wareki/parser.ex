@@ -1,4 +1,8 @@
 defmodule ExWareki.Parser do
+  @moduledoc """
+  Parser module provides parsers of Japanese-formatted date string.
+  """
+
   alias ExWareki.Era
   alias ExWareki.Structs.Wareki
   alias ExWareki.Structs.Seireki

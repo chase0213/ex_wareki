@@ -1,6 +1,6 @@
 defmodule ExWareki.Data do
   @moduledoc """
-  Data module hanldes era data.
+  Data module is a storage of era-data. You may not need to use this module directly.
   """
 
   def data() do

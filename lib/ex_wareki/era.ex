@@ -1,4 +1,7 @@
 defmodule ExWareki.Era do
+  @moduledoc """
+  Era module provides conversion functions between Japanese-formatted date (wareki) and A.D. formatted date (seireki).
+  """
   alias ExWareki.Data
   alias ExWareki.Structs.Wareki
   alias ExWareki.Structs.Seireki
