@@ -44,8 +44,11 @@ defmodule ExWareki.Number do
   def kansuji2arabic("零"), do: {:ok, 0}
   def kansuji2arabic("元"), do: {:ok, 1}
   def kansuji2arabic("一"), do: {:ok, 1}
+  def kansuji2arabic("壱"), do: {:ok, 1}
   def kansuji2arabic("二"), do: {:ok, 2}
+  def kansuji2arabic("弐"), do: {:ok, 2}
   def kansuji2arabic("三"), do: {:ok, 3}
+  def kansuji2arabic("参"), do: {:ok, 3}
   def kansuji2arabic("四"), do: {:ok, 4}
   def kansuji2arabic("五"), do: {:ok, 5}
   def kansuji2arabic("六"), do: {:ok, 6}
@@ -53,9 +56,11 @@ defmodule ExWareki.Number do
   def kansuji2arabic("八"), do: {:ok, 8}
   def kansuji2arabic("九"), do: {:ok, 9}
   def kansuji2arabic("十"), do: {:ok, 10}
+  def kansuji2arabic("拾"), do: {:ok, 10}
   def kansuji2arabic("百"), do: {:ok, 100}
   def kansuji2arabic("千"), do: {:ok, 1000}
   def kansuji2arabic("万"), do: {:ok, 10000}
+  def kansuji2arabic("萬"), do: {:ok, 10000}
   def kansuji2arabic("億"), do: {:ok, 100000000}
 
   @doc """
